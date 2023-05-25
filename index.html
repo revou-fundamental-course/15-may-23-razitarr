@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head> 
+<body>
+    <header>
+        <span class="title">Katik</span> <span class="subtitle">Kalkulator Matematik</span>
+    </header>
+    <main>
+        <div class="card">
+            <header>Luas Persegi</header>
+            <div class="figure">
+                <div class="square"></div>   
+            </div>
+            <div class="formula-description">
+                Rumus Luas Persegi:<br>
+                L = s x s <br> <br>
+
+                Dimana: <br>
+                L = Luas <br>
+                s = sisi <br>
+            </div>
+            <div>
+                <h2>HITUNG LUAS PERSEGI</h2>
+                <input id="sisi-luas" name="sisi-luas" required> 
+                <p class="result-luas" id="rumus-luas"></p>
+                <p class="result-luas" id="perhitungan-luas"></p>
+                <p class="result-luas"> L = <span id="output_luas"></span></p>
+                <button name="hitung-luas" onclick="hitungLuas()">Hitung</button>
+                <button name="reset-luas">Reset</button>
+            </div>
+        </div>
+    </main>
+    <footer>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
